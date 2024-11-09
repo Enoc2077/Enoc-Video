@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="/style.css"> <!-- Enlaza tu CSS -->
+</head>
+<body>
+    <h1></h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre del Deporte</th>
+                <th>Descripción</th>
+                <th>Requisitos</th>
+                <th>Ranking</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each deportes}}
+            <tr>
+                <td>{{this.nombre}}</td>
+                <td>{{this.descripcion}}</td>
+                <td>{{this.requisitos}}</td>
+                <td>{{this.ranking}}</td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</body>
+</html>

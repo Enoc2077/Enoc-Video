@@ -1,0 +1,52 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif; /* Cambiar la fuente general */
+    background-color: #f9f7f7; /* Color de fondo cálido */
+    color: #333; /* Color de texto */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar el contenido horizontalmente */
+    justify-content: center; /* Centrar el contenido verticalmente */
+    height: 100vh; /* Tomar toda la altura de la ventana */
+}
+
+/* Estilos del encabezado */
+header {
+    margin-bottom: 20px;
+    text-align: center; /* Centrar el texto en el encabezado */
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-style: italic; /* Fuente en cursiva para el encabezado */
+    color: #b45e29; /* Color del encabezado */
+}
+
+/* Estilos de la tabla */
+table {
+    border-collapse: collapse; /* Colapsar bordes de la tabla */
+    width: 80%; /* Ancho de la tabla */
+    max-width: 800px; /* Ancho máximo de la tabla */
+    margin: 0 auto; /* Centrar la tabla */
+    background-color: #fff; /* Color de fondo de la tabla */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra de la tabla */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+th, td {
+    border: 1px solid #b45e29; /* Color de los bordes de la tabla */
+    padding: 12px; /* Espaciado interno */
+    text-align: center; /* Centrar texto en celdas */
+    font-style: italic; /* Fuente en cursiva para celdas */
+}
+
+th {
+    background-color: #f2d7d5; /* Color de fondo de encabezados */
+    color: #b45e29; /* Color del texto en encabezados */
+}
+
+tr:hover {
+    background-color: #f2e5e1; /* Color al pasar el mouse sobre las filas */
+}
